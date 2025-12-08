@@ -1,8 +1,8 @@
-import './globals.css'; // your global Tailwind styles
+import "./globals.css";
 
 export const metadata = {
-  title: 'CabroCity',
-  description: 'Modern cabros, paving and construction solutions',
+  title: "CabroCity",
+  description: "Modern cabros, paving and construction solutions",
 };
 
 export default function RootLayout({
