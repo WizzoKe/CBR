@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "CabroCity",
-  description: "Modern cabros, paving and construction solutions",
+  title: "Cabro City Construction",
+  description: "Professional Cabro & Construction Services",
 };
 
 export default function RootLayout({
