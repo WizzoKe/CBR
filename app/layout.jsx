@@ -1,20 +1,14 @@
+import "./globals.css";
+
 export const metadata = {
-  title: "Cabro City Construction",
-  description: "Expert cabro installation, paving, landscaping & civil works.",
+  title: "Cabro City — Paving the Future",
+  description: "Premium cabro paving, landscaping & ground engineering.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          margin: 0,
-          padding: 0,
-          fontFamily: "Arial, Helvetica, sans-serif",
-          backgroundColor: "#f7f7f7",
-          color: "#1b1b1b",
-        }}
-      >
+      <body className="antialiased bg-[#0f0f0f] text-white">
         {children}
       </body>
     </html>
