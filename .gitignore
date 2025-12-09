@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+/.next
+/out
+
+# misc
+.DS_Store
+.env.local
+.env.*.local
+
+# vercel
+.vercel
